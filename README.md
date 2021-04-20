@@ -23,6 +23,7 @@ The overall architecuture is great since it utilizes the residual block and re-b
 Here are some ideas on improvements
 
 1. May be we can add a few layers at the beginning to do some semantic segmentation or masking to remove the backgroung (pre-trained model or a few conv layers can be used).
-2. Most of the parameters setting are domain-specific, is it possible to train them simultaneously in the model?
-3. 
+2. 
+3. Most of the parameters setting are domain-specific, is it possible to train them simultaneously in the model? For instance, let the model selects the number dimensions of camera model. (weighted sum of different dimension's value).
+
 
